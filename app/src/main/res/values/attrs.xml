@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="VisualizerView">
+    <attr name="spaceNum" format="integer"/>
+    <attr name="spaceWidth" format="dimension"/>
+    <attr name="lineColor" format="reference"/>
+    <attr name="lineWidth" format="dimension"/>
+    <attr name="baseHeight" format="dimension"/>
+    <attr name="lineIsSingleColor" format="boolean"/>
+    <attr name="firstPartColor" format="reference"/>
+    <attr name="secondPartColor" format="reference"/>
+    <attr name="thirdPartColor" format="reference"/>
+    <attr name="fourthPartColor" format="reference"/>
+  </declare-styleable>
+</resources>

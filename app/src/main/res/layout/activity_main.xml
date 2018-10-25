@@ -1,0 +1,26 @@
+<RelativeLayout
+  android:id="@+id/root"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:background="@drawable/background_color"
+    android:layout_alignParentBottom="true"/>
+  <com.example.leiyu.musicvisualizer.VisualizerView
+    android:id="@+id/visualizerview"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_alignParentBottom="true"
+    app:firstPartColor="@color/color_99FFFFFF"
+    app:secondPartColor="@color/color_66FFFFFF"
+    app:thirdPartColor="@color/color_4CFFFFFF"
+    app:fourthPartColor="@color/color_19FFFFFF"
+    app:lineWidth="5dp"
+    app:spaceWidth="8dp"
+    app:baseHeight="30dp"
+    app:lineIsSingleColor="false"/>
+</RelativeLayout>
